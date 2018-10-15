@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         let caledndar = Calendar.current
         
         var dateComponents = DateComponents()
-        guard let day = DateTF.text, let month = DateTF.text, let year = DateTF.text else { return }
+        guard let day = DateTF.text, let month = MonthTF.text, let year = YearTF.text else { return }
         dateComponents.day = Int(day)
         dateComponents.month = Int(month)
         dateComponents.year = Int(year)
